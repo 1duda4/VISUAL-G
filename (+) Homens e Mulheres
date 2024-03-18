@@ -1,0 +1,25 @@
+Var
+// Seção de Declarações das variáveis
+  idade: inteiro
+  totalM: inteiro
+  x:inteiro
+  totalH: inteiro
+  nome: caractere
+  sexo: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   Para x de 1 ate 6 faça
+   ESCREVAL ("digite seu nome: ")
+   LEIA (nome)
+   ESCREVAL("digite sua idade: ")
+   LEIA (idade)
+   ESCREVAL("digite seu sexo: ")
+   LEIA (sexo)
+   SE (sexo = "fem") ENTAO
+   totalM <- totalM + idade
+   SENAO
+   totalh <- totalh + idade
+Fimse
+
+Fimpara
