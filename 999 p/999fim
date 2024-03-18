@@ -1,0 +1,63 @@
+Var
+// Seção de Declarações das variáveis 
+  vezes: inteiro
+  vezesM: inteiro
+  vezesF: inteiro
+  somam : inteiro
+  somaF: inteiro
+  idade: inteiro
+  gnr: inteiro
+  maior: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  idade <- 0
+ Enquanto idade <> 999 faca
+   Escreval (" ")
+   Escreval ("Digite sua idade ou 999 para o fim")
+   Escreval (" ")
+   Leia (idade)
+
+ Se(idade <> 999) entao
+   vezes <- vezes + 1
+   Escreval ("Qual seu Genêro?")
+   Escreval ("1- Masculino")
+   Escreval ("2- Feminino")
+   Escreval (" ")
+   Leia (gnr)
+
+ Se (idade > maior) entao
+   maior <- idade
+Fimse
+
+ SE (gnr < 2) entao
+    vezesM <- vezesM + 1
+    somam <- somam + idade
+ SENAO
+ se (gnr < 3)   entao
+     vezesF <- vezesF + 1
+     somaF <- somaF + idade
+ SENAO
+ SE (gnr > 2) entao
+ Escreval ("Opção inexistente. TENTE NOVAMENTE.")
+ Escreval (" ")
+ Leia (gnr)
+
+                Fimse
+              Fimse
+            Fimse
+         Fimse
+
+ SE (idade = 999) entao
+    Escreval (" ")
+    Escreval ("Foram Digitadas", vezes, " idades")
+    Escreval (" ")
+    Escreval ("Idades de Homens: ",vezesM)
+    Escreval ("Soma Idades Homens: ",somam)
+    Escreval (" ")
+    Escreval ("Idades das Mulheres: ",vezesF)
+    Escreval ("Soma Idades Mulheres: ",somaF)
+    Escreval (" ")
+    Escreval ("Maior idade: ", maior)
+Fimse
+
+Fimenquanto
