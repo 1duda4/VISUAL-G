@@ -1,0 +1,8 @@
+Var
+// Seção de Declarações das variáveis 
+  x:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   Para x de 1 ate 200 faça
+      ESCREVAL ("Eduarda")
+   FIMPARA
