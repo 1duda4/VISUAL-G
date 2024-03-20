@@ -1,0 +1,15 @@
+Var
+// Seção de Declarações das variáveis 
+ X:INTEIRO
+ CONTINUA: CARACTERE
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  CONTINUA <- "SIM"
+  X <- 1
+  ENQUANTO CONTINUA = "SIM" FAÇA
+   ESCREVAL ("NUMERO =", X)
+   X <- X + 1
+  ESCREVAL("DESEJA DIGITAR MAIS UM NUMERO? [S/N}")
+  LEIA(CONTINUA)
+FIMENQUANTO
