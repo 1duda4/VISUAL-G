@@ -1,0 +1,15 @@
+Var
+// Seção de Declarações das variáveis 
+ NUMERO_FINAL: INTEIRO
+ X:INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  PARA X DE 1 ATE 50 FAÇA
+   ESCREVA("NUMERO",X)
+  SE(X % 2 = 0) ENTAO
+  ESCREVAL(" - PAR")
+  SENAO
+  ESCREVAL(" - ÍMPAR")
+FIMSE
+FIMPARA
