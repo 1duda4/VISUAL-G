@@ -1,0 +1,54 @@
+Var
+// Seção de Declarações das variáveis 
+   vetor_impares: vetor [1..10] de inteiro
+   índice_impar:inteiro
+
+   vetor_pares: vetor [1..10] de inteiro
+   índice_par:inteiro
+
+   quantidade:inteiro
+   x: inteiro
+   num: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+  ESCREVAL("Quantos números deseja informar ?")
+   LEIA(quantidade)
+   índice_par <- 0
+   índice_impar <- 0
+   ESCREVA("")
+
+   PARA x de 1 até quantidade FACA
+        ESCREVAL(x, ") Informe um número: ")
+        LEIA(num)
+
+        SE(num mod 2 = 0) ENTÃO
+               //par
+               índice_par <- índice_par + 1
+               vetor_pares[índice_par] <- num
+        SENÃO
+             //impar
+               índice_impar <- índice_impar + 1
+               vetor_impares[índice_impar] <- num
+        FIMSE
+
+   FIMPARÁ
+
+   ESCREVA("")
+   ESCREVA("")
+   ESCREVAL("RESUMOS (ORDEM INVERSA) ------------------------")
+   ESCREVA("")
+
+   //resumos-----------------
+   ESCREVAL("PAR___")
+   PARA X DE indice_par ATÉ 1 PASSO -1 FACA
+        ESCREVAL(X, ": ", vetor_pares[x])
+   FIMPARÁ
+
+
+   ESCREVA("")
+
+   ESCREVAL("IMPAR___")
+   PARA x DE índice_par ATÉ 1 PASSO -1 FACA
+        ESCREVAL(x, ": ", vetor_impares[x])
+   FIMPARÁ
+
