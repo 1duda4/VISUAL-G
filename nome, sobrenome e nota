@@ -1,0 +1,21 @@
+Var
+// Seção de Declarações das variáveis 
+    vetor_nome: vetor [1..5] de caracter
+    vetor_nota: vetor [1..5] de caracter
+    vetor_sobrenome: vetor [1..5] de caracter
+    X: INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVAL("Digite um NOME")
+   LEIA(vetor_nome[1])
+   ESCREVAL(vetor_nome[1])
+
+   ESCREVAL("Digite um sobrenome")
+   LEIA(vetor_sobrenome[1])
+   ESCREVAL(vetor_sobrenome[1])
+   
+   ESCREVAL("Digite uma nota")
+   LEIA(vetor_nota[1])
+   ESCREVAL(vetor_nota[1])
+   
