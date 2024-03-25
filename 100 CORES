@@ -1,0 +1,12 @@
+Var
+// Seção de Declarações das variáveis 
+    vetor_cores: vetor [1..5] de caracter
+    X: INTEIRO
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+  Para x de 1 ate 100 faça
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[1])
+   ESCREVAL(vetor_cores[1])
+   
