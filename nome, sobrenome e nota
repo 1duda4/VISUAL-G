@@ -9,13 +9,13 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
    ESCREVAL("Digite um NOME")
    LEIA(vetor_nome[1])
-   ESCREVAL(vetor_nome[1])
+
 
    ESCREVAL("Digite um sobrenome")
-   LEIA(vetor_sobrenome[1])
-   ESCREVAL(vetor_sobrenome[1])
+   LEIA(vetor_sobrenome[2])
+
    
    ESCREVAL("Digite uma nota")
-   LEIA(vetor_nota[1])
-   ESCREVAL(vetor_nota[1])
+   LEIA(vetor_nota[3])
+
    
