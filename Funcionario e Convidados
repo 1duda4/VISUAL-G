@@ -1,0 +1,21 @@
+Var
+// Seção de Declarações das variáveis 
+  nomes: vetor [1..10,1..2] de caractere
+  idades: vetor [1..10,1..2] de inteiro
+  qts:inteiro
+  x:inteiro
+  funcionario: caractere
+  convidado: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    Escreval("Informe o número de funcionarios:")
+    Leia(qtd)
+    Para x de 1 ate qtd faca
+    Escreval("Digite o nome do funcionario:")
+    Leia(funcionario)
+    nomes[x,1] <- funcionario
+    Escreval("Digite o nome do convidado")
+    Leia(convidado)
+    Nomes[x,2] = convidado
+ FIMPARA
